@@ -13,6 +13,12 @@
    --maskedimage-path = file where masked image is saved (default='./masked_images/')
    --pretrained-weight = './pretrained/SGHM-ResNet50.pth'
    ```
+   Example for pifuhd
+   
+   ```python
+   python test_image2.py --image-path ./figs/womantest2.jpg  --maskedimage-path ../pifuhd/sample_images/
+
+   ```
 
 <div align="center"><i>Robust Human Matting via Semantic Guidance (ACCV 2022)</i></div>
 
