@@ -1,5 +1,19 @@
 <h2 align="center">Semantic Guided Human Matting - SGHM</h2>
 
+#### Updated Testing
+
+1. You can download our pretraind weights from [link](https://drive.google.com/drive/folders/15mGzPJQFEchaZHt9vgbmyOy46XxWtEOZ?usp=sharing) (google drive)  or [link](https://pan.baidu.com/s/147xULbZ_FPNot0YWLZ-isQ) (百度云, 提取码: u8g4) and save it in the`./pretrained` folder.  
+
+2. Test your own images
+
+   ```python
+   python test_image.py --images-dir "PATH_TO_IMAGES_DIR"
+
+   --result-dir = file where trimap is saved (default='./results')
+   --maskedimage-path = file where masked image is saved (default='./masked_images/')
+   --pretrained-weight = './pretrained/SGHM-ResNet50.pth'
+   ```
+
 <div align="center"><i>Robust Human Matting via Semantic Guidance (ACCV 2022)</i></div>
 
 <img src="figs/teaser.gif" width="100%">
